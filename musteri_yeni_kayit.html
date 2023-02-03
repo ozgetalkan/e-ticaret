@@ -784,35 +784,35 @@ Form Controls</title>
 							<form role="form" class="form-horizontal">
 								<div class="form-body">
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Adı</label>
+										<label class="col-md-2 control-label" for="txtName">Adı*</label>
 										<div class="col-md-10">
-											<input type="text" class="form-control" id="form_control_1" placeholder="Adınızı yazınız">
+											<input required autocomplete="off" type="text" class="form-control" id="txtName" name="txtName" placeholder="Adınızı yazınız" maxlength="50">
 											<div class="form-control-focus">
 											</div>
 										</div>
 									</div>
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Soyadı</label>
+										<label class="col-md-2 control-label" for="txtSurname">Soyadı*</label>
 										<div class="col-md-10">
-											<input type="text" class="form-control" id="form_control_1" placeholder="Soyadınızı yazınız">
+											<input required autocomplete="off" type="text" class="form-control" id="txtSurname" name="txtSurname" placeholder="Soyadınızı yazınız" maxlength="50">
 											<div class="form-control-focus">
 											</div>
 										</div>
 									</div>
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Doğum Tarihi</label>
+										<label class="col-md-2 control-label" for="dtBirthDate">Doğum Tarihi</label>
 										<div class="col-md-10">
-											<input type="text" class="form-control" id="form_control_1" placeholder="Doğum tarihinizi yazınız">
+											<input autocomplete="off" type="text" class="form-control" id="dtBirthDate" name="dtBirthDate" placeholder="Doğum tarihinizi yazınız">
 											<div class="form-control-focus">
 											</div>
 										</div>
 									</div>
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Cinsiyet</label>
+										<label class="col-md-2 control-label" for="rdGender">Cinsiyet</label>
 										<div class="col-md-10">
 											<div class="md-radio-inline">
 												<div class="md-radio">
-													<input type="radio" id="radio53" name="radio2" class="md-radiobtn">
+													<input type="radio" id="radio53" name="rdGender" class="md-radiobtn">
 													<label for="radio53">
 													<span></span>
 													<span class="check"></span>
@@ -820,7 +820,7 @@ Form Controls</title>
 													Kadın </label>
 												</div>
 												<div class="md-radio">
-													<input type="radio" id="radio54" name="radio2" class="md-radiobtn">
+													<input type="radio" id="radio54" name="rdGender" class="md-radiobtn">
 													<label for="radio54">
 													<span></span>
 													<span class="check"></span>
@@ -830,17 +830,17 @@ Form Controls</title>
 											</div>
 										</div>
 									<div class="form-group form-md-line-input has-success">
-										<label class="col-md-2 control-label" for="form_control_1">Adres</label>
+										<label class="col-md-2 control-label" for="txtAddress">Adres</label>
 										<div class="col-md-10">
-											<textarea class="form-control" rows="3" placeholder="Açık adresinizi yazınız"></textarea>
+											<textarea autocomplete="off" class="form-control" id="txtAddress" name="txtAddress" rows="3" placeholder="Açık adresinizi yazınız"></textarea>
 											<div class="form-control-focus">
 											</div>
 										</div>
 									</div>
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Şehir</label>
+										<label class="col-md-2 control-label" for="cmbCity">Şehir</label>
 										<div class="col-md-10">
-											<select class="form-control" id="form_control_1">
+											<select class="form-control" id="cmbCity" name="cmbCity">
 												<option value="0">Lütfen seçiniz...</option>
 												<option value="1">İstanbul</option>
 												<option value="2">Ankara</option>
